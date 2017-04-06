@@ -64,7 +64,7 @@ void setup(void) {
     delay(1000);
   }
   ticker.detach();
-//  webPage += "<h1>SONOFF Web Server</h1><p><a href=\"on\"><button>ON</button></a>&nbsp;<a href=\"off\"><button>OFF</button></a></p>";
+
   // preparing GPIOs
   pinMode(gpio13Led, OUTPUT);
   digitalWrite(gpio13Led, HIGH);
